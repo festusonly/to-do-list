@@ -7,15 +7,16 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #4f76c3, #1c2238);
+    background: linear-gradient(135deg, #265b6d, #03080a);
     padding: 10px;
 }
+
 .todo-app{
     min-height: 100px;
-  
+    
     width: 100%;
     max-width: 540px;
-    background: rgb(253, 253, 253);
+    background: rgb(122, 169, 182);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -52,13 +53,13 @@ input{
 button{
     height: 50px;
     width: 100px;
-    background-color: rgb(170, 221, 221);
+    background-color: rgb(70, 148, 123);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     
 }
-button:hover {background-color: #8cc38e;}
+button:hover {background-color: #0e300f;}
 button:active  {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
@@ -123,4 +124,6 @@ ul li span:hover{
     background-color: #cdb596; /* Change to your desired hover background color */
     color: #120b0b; /* Change to your desired hover text color */
 }
+
+
 
